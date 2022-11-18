@@ -735,7 +735,6 @@ class MSDialect_pyodbc(PyODBCConnector, MSDialect):
                 "HYT00",
                 "HY010",
                 "10054",
-                "42000",
             }:
                 return True
         return super().is_disconnect(e, connection, cursor)
